@@ -24,10 +24,64 @@ NAV A {
 	color: orange;
 }
 
+/*
+------------------------------------------
+Esta parte es el título
+------------------------------------------
+*/
+
+
+/*
+------------------------------------------
+Esta parte es el menú superior
+------------------------------------------
+*/
 #menu {
 	width: 100%;
 	color: aliceblue;
 	text-align: center;
 	vertical-align: middle;
 	background-color: blue;
+}
+
+/*
+------------------------------------------
+Esta parte es el contenido
+------------------------------------------
+*/
+#cajacontenido {
+	min-width: 390px;
+	max-width: 1200px;
+	margin: auto;
+	background-color: white;
+	margin-top: 14px;
+	display: flex;
+}
+
+#centrarcontenido {
+
+	align-content: center;
+	align-self: center;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+#contenido {
+	width: 70%;
+	margin-right: 5px;
+	top: 0;
+	background-color: orange;
+	flex: 3;
+}
+/*
+------------------------------------------
+Esta parte es el Menú a la Derecha
+------------------------------------------
+*/
+#menuderecha {
+	width: 30%;
+	margin-left: 5px;
+	background-color: darkgray;
+	flex: 1;
 }
