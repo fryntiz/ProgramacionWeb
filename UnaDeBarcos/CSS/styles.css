@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+H1, H2, H3, H4, H5, H6 {
+	text-align: center;
+}
+
+NAV {
+	margin: auto;
+	align-content: center;
+}
+
+NAV UL LI {
+	margin: 2px 8px 2px 8px;
+	padding: 10px 18px 10px 18px;
+	text-align: center;
+	display: inline-block;
+	border: 1px groove red;
+}
+
+NAV A {
+	color: orange;
+}
+
+#menu {
+	width: 100%;
+	color: aliceblue;
+	text-align: center;
+	vertical-align: middle;
+	background-color: blue;
+}
