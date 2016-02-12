@@ -29,8 +29,16 @@ NAV A {
 Esta parte es el título
 ------------------------------------------
 */
-
-
+#titulo {
+	height: 80px;
+	background-color:red;
+}
+#titulo IMG {
+	display:inline-block;
+}
+#titulo H1 {
+	display:
+}
 /*
 ------------------------------------------
 Esta parte es el menú superior
@@ -43,7 +51,9 @@ Esta parte es el menú superior
 	vertical-align: middle;
 	background-color: blue;
 }
-
+#idiomas {
+	display:inline-block;
+}
 /*
 ------------------------------------------
 Esta parte es el contenido
