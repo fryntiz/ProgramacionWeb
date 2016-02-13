@@ -1,75 +1,75 @@
 <!DOCTYPE html>
 <HTML lang="es">
    <HEAD>
-		<TITLE>Una de Barcos</TITLE>
+		<TITLE>WEb de Barcos</TITLE>
 		<META charset="utf-8"/>
 		<LINK rel="shortcut icon" href="./images/favicon.png"/>
 		<LINK rel="stylesheet" href="./CSS/styles.css"/>
 	</HEAD>
 
-	<BODY onkeydown="return false">
+	<BODY onkeydown="return false" id="inicio">
 		<DIV id="cajageneral">
 			<DIV id="cajasuperior">
 				<DIV id="titulo">
-					<IMG src="./images/logo.png" id="logo"/>
-					<H1>Una de Barcos</H1>
+					<IMG src="./images/logo.png" id="logo" alt="Logotipo"/>
+					<H1>WEb de Barcos</H1>
+					<TABLE id="idiomas">
+						<TR>
+							<TD>
+								<IMG src="images/es.png" alt="Idioma Español"/>
+							</TD>
+							<TD>
+								<IMG src="images/en.png" alt="Language English"/>
+							</TD>
+							<TD>
+								<IMG src="images/de.png" alt="Language Germany"/>
+							</TD>
+						</TR>
+					</TABLE>
 				</DIV>
 
 				<DIV id="menu">
 					<NAV id="menusuperior">
 						<UL>
-							<LI><A href="#"><P><IMG class="imgboton" src="./images/botones/volver_inicio.png"/></P>Inicio</A></LI>
-							<LI><A href="#"><P><IMG class="imgboton" src="./images/botones/1.png"/></P>1</A></LI>
-							<LI><A href="#"><P><IMG class="imgboton" src="./images/botones/2.png"/></P>2</A></LI>
-							<LI><A href="#"><P><IMG class="imgboton" src="./images/botones/3.png"/></P>3</A></LI>
-							<LI><A href="#"><P><IMG class="imgboton" src="./images/botones/4.png"/></P>4</A></LI>
-							<LI><A href="#"><P><IMG class="imgboton" src="./images/botones/5.png"/></P>5</A></LI>
+							<A href="#"><LI id="enlaceinicio">Inicio</LI></A>
+							<A href="#"><LI>Empresa</LI></A>
+							<A href="#"><LI>Menú1</LI></A>
+							<A href="#"><LI>Menú2</LI></A>
+							<A href="#"><LI>Menú3</LI></A>
+							<A href="#"><LI>Contacto</LI></A>
 						</UL>
 					</NAV>
-					<TABLE id="idiomas">
-						<TR>
-							<TD>
-								ES
-							</TD>
-							<TD>
-								EN
-							</TD>
-							<TD>
-								DE
-							</TD>
-						</TR>
-					</TABLE>
+
 				</DIV>
 			</DIV>
 
 			<DIV id="cajacontenido">
-					<DIV id="contenido"><!--Contenido principal-->
-						<SECTION>
-							contenido
-						</SECTION>
+				<DIV id="cajaportada">
+					<IMG src="images/portada/foto1.jpg" alt="foto1" id="imgA" class="fotosportadas"/>
+					<IMG src="images/portada/foto2.jpg" alt="foto2" id="imgB" class="fotosportadas"/>
+					<IMG src="images/portada/foto3.jpg" alt="foto3" id="imgC" class="fotosportadas"/>
+					<IMG src="images/portada/foto4.jpg" alt="foto4" id="imgD" class="fotosportadas"/>
+					<BR/>
+					<IMG src="images/portada/foto5.jpg" alt="foto5" id="imgE" class="fotosportadas"/>
+					<IMG src="images/portada/foto6.jpg" alt="foto6" id="imgF" class="fotosportadas"/>
+					<IMG src="images/portada/foto7.jpg" alt="foto7" id="imgG" class="fotosportadas"/>
+				</DIV>
+			</DIV>
+
+			<DIV id="piedepagina">
+				<DIV id="piecontenido">
+					<DIV id="telefono">
+						Teléfono: 699 999 999
 					</DIV>
 
-					<DIV id="menuderecha"><!--Barra lateral derecha-->
-						<NAV>
-							<UL>
-								<LI>1</LI>
-								<LI>2</LI>
-								<LI>3</LI>
-							</UL>
-
-							<TABLE><!--Tabla con galería imagenes-->
-								<TR>
-									<TD><IMG src="./images/#"/>1</TD>
-									<TD><IMG src="./images/#"/>2</TD>
-								</TR>
-
-								<TR>
-									<TD><IMG src="./images/#"/>3</TD>
-									<TD><IMG src="./images/#"/>4</TD>
-								</TR>
-							</TABLE>
-						</NAV>
+					<DIV id="correo">
+						Correo: correoelectrónico@gmail.com
 					</DIV>
+
+					<DIV id="derechos">
+						Derechos de autor
+					</DIV>
+				</DIV>
 			</DIV>
 		</DIV>
 	</BODY>
