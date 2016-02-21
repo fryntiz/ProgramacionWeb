@@ -93,7 +93,7 @@ Esta parte es el menú superior
 	cursor: pointer;
 	border: 2px groove black;
 }
-#inicio #enlaceinicio, #menu1 #enlacemenu1 {
+#inicio #enlaceinicio, #empresa #enlaceempresa, #contacto #enlacecontacto, #motor #enlacemotor, #vela #enlacevela, #veleria #enlaceveleria {
 	color: #7997B9;
 	background-color: white;
 	border: 3px groove black;
@@ -188,9 +188,13 @@ Esta parte es Index
 	vertical-align: middle;
 	border: 6px groove white;
 	box-shadow: 8px 8px 10px #004848;
+	opacity: 0.7;
 }
 .fotosportadas:hover {
 	cursor: pointer;
+	opacity: 1;
+	box-shadow: 2px 2px 20px orange,
+	-2px -2px 20px orange;
 }
 #imgA {
 	width: 20%;
