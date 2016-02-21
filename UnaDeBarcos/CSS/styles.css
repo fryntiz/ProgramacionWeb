@@ -39,6 +39,7 @@ NAV A {
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 1em;
+
 }
 
 /*
@@ -121,7 +122,6 @@ Esta parte es el contenido
 	z-index: 20;
 }
 #contenido {
-	width: 70%;
 	margin-right: 5px;
 	top: 0;
 	background-color: orange;
@@ -187,7 +187,7 @@ Esta parte es Index
 	min-width: 565px;
 	max-width: 1190px;
 	min-height: 245px;
-	max-height: 490px;
+	max-height: 620px;
 	padding: 20px;
 	background-image: url(../images/portada/portada.png);
 	background-repeat: no-repeat;
@@ -201,6 +201,7 @@ Esta parte es Index
 }
 .fotosportadas {
 	margin: 16px 6px;
+	vertical-align: middle;
 	border: 6px groove white;
 	box-shadow: 8px 8px 3px black;
 }
@@ -209,11 +210,11 @@ Esta parte es Index
 }
 #imgA {
 	width: 24%;
-	transform:skew(4deg,1deg);
+	transform:skew(2deg,1deg);
 }
 #imgB {
 	width: 16%;
-	transform:skew(7deg,1deg);
+	transform:skew(1deg,2deg);
 }
 #imgC {
 	width: 24%;
