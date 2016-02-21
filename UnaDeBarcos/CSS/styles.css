@@ -38,7 +38,6 @@ NAV A {
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 1em;
 
 }
 
@@ -48,7 +47,6 @@ Esta parte es el título
 ------------------------------------------
 */
 #titulo {
-	min-width: 600px;
 	height: 70px;
 	text-align: center;
 	align-content: center;
@@ -73,7 +71,6 @@ Esta parte es el menú superior
 ------------------------------------------
 */
 #menu {
-	min-width: 600px;
 	color: aliceblue;
 	text-align: center;
 	vertical-align: middle;
@@ -108,15 +105,12 @@ Esta parte es el contenido
 ------------------------------------------
 */
 #cajacontenido {
-	min-width: 576px;
-	max-width: 1200px;
 	margin: auto;
 	margin-top: 14px;
 	display: flex;
 	z-index: 20;
 }
 #cajaportada {
-	position: absolute;
 	min-width: 576px;
 	max-width: 1200px;
 	z-index: 20;
@@ -145,7 +139,6 @@ Esta parte es el pie de página
 ------------------------------------------
 */
 #piedepagina {
-	position: absolute;
 	width: 100%;
 	margin-top: 30px;
 	bottom: 0;
@@ -153,12 +146,9 @@ Esta parte es el pie de página
 	z-index: 0;
 }
 #piecontenido {
-	min-width: 580px;
-	max-width: 1200px;
 	margin: auto;
 	padding-top: 10px;
 	color: white;
-	font-size: 1.6em;
 	align-content: center;
 	text-align: center;
 }
@@ -174,7 +164,6 @@ Esta parte es el pie de página
 	display: block;
 	margin-top: 14px;
 	color: dodgerblue;
-	font-size: 0.7em;
 }
 
 /*
@@ -184,11 +173,6 @@ Esta parte es Index
 */
 #cajaportada {
 	margin: auto;
-	min-width: 565px;
-	max-width: 1190px;
-	min-height: 245px;
-	max-height: 620px;
-	padding: 20px;
 	background-image: url(../images/portada/portada.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -200,39 +184,39 @@ Esta parte es Index
 	align-items: center;
 }
 .fotosportadas {
-	margin: 16px 6px;
+	margin: 12px 2px;
 	vertical-align: middle;
 	border: 6px groove white;
-	box-shadow: 8px 8px 3px black;
+	box-shadow: 8px 8px 10px #004848;
 }
 .fotosportadas:hover {
 	cursor: pointer;
 }
 #imgA {
-	width: 24%;
+	width: 20%;
 	transform:skew(2deg,1deg);
 }
 #imgB {
-	width: 16%;
+	width: 18%;
 	transform:skew(1deg,2deg);
 }
 #imgC {
-	width: 24%;
+	width: 20%;
 	transform:skew(2deg,-1deg);
 }
 #imgD {
-	width: 16%;
+	width: 18%;
 	transform:skew(2deg,-1deg);
 }
 #imgE {
-	width: 28%;
+	width: 25%;
 	transform:skew(-1deg,1deg);
 }
 #imgF {
-	width: 28%;
+	width: 25%;
 	transform:skew(-4deg,-1deg);
 }
 #imgG {
-	width: 28%;
+	width: 25%;
 	transform:skew(-3deg,1deg);
 }
