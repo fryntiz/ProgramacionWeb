@@ -1,0 +1,51 @@
+@media screen and (min-width: 1001px) {
+
+/*
+------------------------------------------
+Esta parte es el título
+------------------------------------------
+*/
+	#titulo H1 {
+		font-size: 4.2em;
+	}
+/*
+
+/*
+------------------------------------------
+Esta parte es el menú superior
+------------------------------------------
+*/
+	#menu {
+		min-width: 1001px;
+		font-size: 0.9em;
+	}
+
+/*
+------------------------------------------
+Esta parte es el contenido
+------------------------------------------
+*/
+	#cajacontenido {
+		height: 640px;
+	}
+/*
+------------------------------------------
+Esta parte es el pie de página
+------------------------------------------
+*/
+	#piecontenido {
+		min-width: 1001px;
+		font-size: 1.8em;
+	}
+	#derechos {
+		font-size: 0.6em;
+	}
+/*
+------------------------------------------
+Esta parte es Index
+------------------------------------------
+*/
+	#cajaportada {
+		min-width: 1001px;
+	}
+}
