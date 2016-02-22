@@ -1,3 +1,9 @@
+/*COLORES
+	#002838
+	#1DB8BC
+
+*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -61,9 +67,13 @@ Esta parte es el título
 }
 #titulo H1 {
 	display:inline-block;
-	color: royalblue;
+	color: #1DB8BC;
 	font-size: 2.8em;
-	text-shadow: -7px -4px 6px black;
+	text-shadow: -7px -4px 6px black,
+		1px 1px 1px black,
+		-1px 1px 1px black,
+		1px -1px 1px black,
+		-1px -1px 1px black;
 }
 /*
 ------------------------------------------
@@ -108,12 +118,10 @@ Esta parte es el contenido
 	margin: auto;
 	margin-top: 14px;
 	display: flex;
-	z-index: 20;
 }
 #cajaportada {
 	min-width: 576px;
 	max-width: 1200px;
-	z-index: 20;
 }
 #contenido {
 	margin-right: 5px;
@@ -140,10 +148,12 @@ Esta parte es el pie de página
 */
 #piedepagina {
 	width: 100%;
-	margin-top: 30px;
+	margin-top: 50px;
 	bottom: 0;
 	background-color: #002838;
 	z-index: 0;
+	clear: both;
+	flex: none;
 }
 #piecontenido {
 	margin: auto;
@@ -187,7 +197,7 @@ Esta parte es Index
 	margin: 12px 2px;
 	vertical-align: middle;
 	border: 6px groove white;
-	box-shadow: 8px 8px 10px #004848;
+	box-shadow: 8px 8px 10px #1DB8BC;
 	opacity: 0.7;
 }
 .fotosportadas:hover {
@@ -195,32 +205,4 @@ Esta parte es Index
 	opacity: 1;
 	box-shadow: 2px 2px 20px orange,
 	-2px -2px 20px orange;
-}
-#imgA {
-	width: 20%;
-	transform:skew(2deg,1deg);
-}
-#imgB {
-	width: 18%;
-	transform:skew(1deg,2deg);
-}
-#imgC {
-	width: 20%;
-	transform:skew(2deg,-1deg);
-}
-#imgD {
-	width: 18%;
-	transform:skew(2deg,-1deg);
-}
-#imgE {
-	width: 25%;
-	transform:skew(-1deg,1deg);
-}
-#imgF {
-	width: 25%;
-	transform:skew(-4deg,-1deg);
-}
-#imgG {
-	width: 25%;
-	transform:skew(-3deg,1deg);
 }

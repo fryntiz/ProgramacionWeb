@@ -26,7 +26,6 @@ Esta parte es el contenido
 ------------------------------------------
 */
 	#cajacontenido {
-		height: 340px;
 	}
 /*
 ------------------------------------------
@@ -47,5 +46,33 @@ Esta parte es Index
 */
 	#cajaportada {
 		min-width: 430px;
+	}
+	#imgA {
+	width: 80%;
+	transform:skew(2deg,1deg);
+	}
+	#imgB {
+		width: 80%;
+		transform:skew(1deg,2deg);
+	}
+	#imgC {
+		width: 80%;
+		transform:skew(2deg,-1deg);
+	}
+	#imgD {
+		width: 80%;
+		transform:skew(2deg,-1deg);
+	}
+	#imgE {
+		width: 80%;
+		transform:skew(-1deg,1deg);
+	}
+	#imgF {
+		width: 80%;
+		transform:skew(-4deg,-1deg);
+	}
+	#imgG {
+		width: 80%;
+		transform:skew(-3deg,1deg);
 	}
 }
