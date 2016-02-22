@@ -26,7 +26,22 @@ Esta parte es el contenido
 ------------------------------------------
 */
 	#cajacontenido {
+		display: block;
 	}
+	#contenido {
+		width: 85%;
+		margin-bottom: 5px;
+	}
+
+/*
+------------------------------------------
+Esta parte es el Menú a la Derecha
+------------------------------------------
+*/
+	#menuderecha {
+		width: 85%;
+	}
+
 /*
 ------------------------------------------
 Esta parte es el pie de página

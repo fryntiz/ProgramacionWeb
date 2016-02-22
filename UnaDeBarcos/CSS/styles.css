@@ -117,28 +117,90 @@ Esta parte es el contenido
 #cajacontenido {
 	margin: auto;
 	margin-top: 14px;
-	display: flex;
 }
 #cajaportada {
 	min-width: 576px;
 	max-width: 1200px;
+	border: 7px groove black;
 }
 #contenido {
-	margin-right: 5px;
+	margin: auto;
+	padding: 30px;
 	top: 0;
-	background-color: orange;
-	flex: 3;
 }
+SECTION ARTICLE {
+	margin: 3px;
+	background-color: white;
+	border: 15px solid transparent;
+	border-image: url(../images/border.png) 10% stretch;
+	align-content: center;
+	text-align: center;
+}
+SECTION ARTICLE P {
+	margin: 8px;
+	color: #002838;
+	text-align: justify;
+}
+SECTION ARTICLE H3 {
+	color: white;
+	padding: 3px;
+	background-color: #002838;
+	text-shadow: 1px 1px 1px #1DB8BC,
+		-1px 1px 1px #1DB8BC,
+		1px -1px 1px #1DB8BC,
+		-1px -1px 1px #1DB8BC;
+	border-radius: 10px;
+	margin: 10px 0;
+}
+SECTION ARTICLE H4 {
+	width: 80%;
+	margin: 5px 5px 5px -10px;
+	padding: 5px 8px;
+	text-align: right;
+	color: azure;
+	background-color: #1DB8BC;
+	border-radius: 0 10px 10px 0;
+	text-shadow: 1px 1px 1px black,
+		-1px 1px 1px black,
+		1px -1px 1px black,
+		-1px -1px 1px black;
+}
+SECTION ARTICLE IMG {
+	width: 240px;
+	height: 180px;
+	margin: 5px;
+	vertical-align: middle;
+	align-content: center;
+	border: 5px groove #1DB8BC;
+	box-shadow: 5px 5px 8px black;
+}
+
 /*
 ------------------------------------------
 Esta parte es el Menú a la Derecha
 ------------------------------------------
 */
 #menuderecha {
-	width: 30%;
-	margin-left: 5px;
-	background-color: darkgray;
-	flex: 1;
+	margin: auto;
+	background-color: white;
+	border: 8px groove #002838;
+	border-radius: 10px;
+	text-align: center;
+}
+#menuderecha NAV UL A LI {
+	width: 7.5%;
+	margin: 8px 0.2px;
+	color: red;
+}
+#menuderecha NAV UL A LI:hover {
+	color: white;
+	background-color: dodgerblue;
+}
+#menuderechagaleria {
+
+}
+#menuderechagaleria IMG{
+	width: 70%;
 }
 
 /*
@@ -183,21 +245,20 @@ Esta parte es Index
 */
 #cajaportada {
 	margin: auto;
-	background-image: url(../images/portada/portada.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: contain;
+	background-image: url(../images/portada/portada.jpg);
+	background-repeat: repeat;
 	background-color: black;
 	align-content: center;
 	vertical-align: middle;
 	text-align: center;
 	align-items: center;
+	border-radius: 20px;
 }
 .fotosportadas {
 	margin: 12px 2px;
 	vertical-align: middle;
 	border: 6px groove white;
-	box-shadow: 8px 8px 10px #1DB8BC;
+	box-shadow: 8px 8px 10px black;
 	opacity: 0.7;
 }
 .fotosportadas:hover {

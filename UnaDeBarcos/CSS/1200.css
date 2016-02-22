@@ -26,7 +26,25 @@ Esta parte es el contenido
 ------------------------------------------
 */
 	#cajacontenido {
+		display: flex;
+		min-width: 1001px;
+		max-width: 1200px;
 	}
+	#contenido {
+		flex: 3;
+		margin-top: 0;
+	}
+
+/*
+------------------------------------------
+Esta parte es el Menú a la Derecha
+------------------------------------------
+*/
+	#menuderecha {
+		margin-top: 0;
+		flex: 1;
+	}
+
 /*
 ------------------------------------------
 Esta parte es el pie de página
