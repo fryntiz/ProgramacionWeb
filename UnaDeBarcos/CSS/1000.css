@@ -90,4 +90,17 @@ Esta parte es Index
 		width: 40%;
 		transform:skew(-3deg,1deg);
 	}
+
+/*
+------------------------------------------
+Esta parte es para Barcos a Motor y Vela
+------------------------------------------
+*/
+	.barcostablas TD {
+		font-size: 1em;
+	}
+
+	.resultado TD {
+		font-size: 1.2em;
+	}
 }
