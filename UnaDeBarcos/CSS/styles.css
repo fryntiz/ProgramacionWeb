@@ -114,13 +114,26 @@ Esta parte es el menú superior
 Esta parte es el contenido
 ------------------------------------------
 */
+#titulopagina {
+	width: 90%;
+	margin: 10px auto;
+	padding: 3px 1px;
+	border-top: 3px groove black;
+	border-bottom: 3px groove black;
+	color: white;
+	background-color: #1DB8BC;
+	text-shadow: 1px 1px 1px #002838,
+		-1px 1px 1px #002838,
+		1px -1px 1px #002838,
+		-1px -1px 1px #002838,
+		6px 6px 5px black;
+	border-radius: 10px;
+}
 #cajacontenido {
 	margin: auto;
 	margin-top: 14px;
 }
 #cajaportada {
-	min-width: 576px;
-	max-width: 1200px;
 	border: 7px groove black;
 }
 #contenido {
@@ -386,4 +399,79 @@ FORM {
 	color: #1DB8BC;
 	font-size: 1.6;
 	font-weight: bolder;
+}
+
+/*
+------------------------------------------
+Esta parte es para Barcos a Motor y Vela
+------------------------------------------
+*/
+#barcos {
+	width: 100%;
+	padding: 10px 0;
+	background-color: #C9C9C9;
+	background-image: url(../images/portada/portada.jpg);
+	border-radius:10px;
+}
+.cajabarcos {
+	width: 90%;
+	margin: 30px auto;
+	padding: 15px 10px;
+	color: white;
+	background-color: #003046;
+	text-align: center;
+	vertical-align: middle;
+	align-content: center;
+	align-items: center;
+	border: 3px groove black;
+	border-radius: 10px;
+	box-shadow: 6px 6px 5px black;
+}
+.cajabarcos H3 {
+	font-size: 2.4em;
+	color: white;
+	text-shadow: 1px 1px 1px #1DB8BC,
+		-1px 1px 1px #1DB8BC,
+		1px -1px 1px #1DB8BC,
+		-1px -1px 1px #1DB8BC,
+		6px 6px 5px black;
+}
+.cajabarcos IMG {
+	width: 80%;
+	padding: 0;
+	align-content: center;
+	text-align: center;
+	border: 5px groove white;
+	border-radius: 10px;
+	box-shadow: 6px 6px 5px black;
+}
+.barcoimagen {
+}
+.barcocontenido {
+	margin: 5px 10px;
+	text-align: left;
+}
+.barcostablas {
+	width: 100%;
+	margin: 10px 0;
+	border: 4px groove black;
+	border-radius: 10px;
+}
+.barcostablas TR:nth-of-type(even) {
+	color: black;
+	background-color: white;
+}
+.barcostablas TR:nth-of-type(odd) {
+	background-color: #1DB8BC;
+}
+.barcostablas IMG {
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+}
+.resultado TD{
+	color: red;
 }
