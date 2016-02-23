@@ -267,3 +267,123 @@ Esta parte es Index
 	box-shadow: 2px 2px 20px orange,
 	-2px -2px 20px orange;
 }
+
+/*
+------------------------------------------
+Esta parte es Formulario
+------------------------------------------
+*/
+#contactar {
+	margin-bottom: 18px;
+	background-color: white;
+	background-image: url(../images/portada/portada.jpg);
+	border-radius: 10px;
+}
+#contactar H2 {
+	width: 98.7%;
+	margin: 3px 3px;;
+	vertical-align: middle;
+	text-align: center;
+	align-content: center;
+	color: white;
+	padding: 3px;
+	background-color: #002838;
+	text-shadow: 1px 1px 1px #1DB8BC,
+		-1px 1px 1px #1DB8BC,
+		1px -1px 1px #1DB8BC,
+		-1px -1px 1px #1DB8BC;
+	border-radius: 10px;
+}
+#contactar P {
+	padding: 15px;
+	font-size: 1.2em;
+}
+
+FORM {
+	background-color: white;
+	padding: 5px;
+	border-radius: 10px;
+	background-image: url(../images/portada/portada.jpg)
+}
+#enviar {
+	margin: auto;
+	padding: 3px;
+	text-align: center;
+	align-content: center;
+	color: white;
+	font-weight: bold;
+	font-size: 1.4em;
+	border: 3px groove #002838;
+	border-radius: 10px;
+	background-color: #1DB8BC;
+	box-shadow: 5px 5px 5px black;
+}
+#contenido INPUT {
+	width: 100%;
+	margin: 5px;
+	padding: 10px 3px;
+}
+#contenido INPUT:focus, #contenido TEXTAREA:focus {
+	box-shadow: 5px 5px 5px #112838,
+		-5px 5px 5px #112838,
+		5px -5px 5px #112838,
+		-5px -5px 5px #112838;
+}
+.formnombre {
+	width: 22%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.forminput {
+	width: 70%;
+	display: inline-block;
+	text-align: right;
+}
+#nombre {
+
+}
+#apellidos {
+
+}
+#telefono {
+
+}
+#email {
+
+}
+#comentario {
+	width: 90%;
+	height: 80px;
+	text-align: justify;
+	vertical-align: top;
+}
+#datosempresa {
+	margin-top: 20px;
+	background-color: white;
+	border: 6px groove #002838;
+	border-radius: 10px;
+}
+#datosempresa H2 {
+	width: 98.7%;
+	margin: 3px 3px;;
+	vertical-align: middle;
+	text-align: center;
+	align-content: center;
+	color: white;
+	padding: 3px;
+	background-color: #002838;
+	text-shadow: 1px 1px 1px #1DB8BC,
+		-1px 1px 1px #1DB8BC,
+		1px -1px 1px #1DB8BC,
+		-1px -1px 1px #1DB8BC;
+	border-radius: 10px;
+}
+#datosempresa P {
+	padding: 10px;
+	font-size: 1.4em;
+}
+#datosempresa B {
+	color: #1DB8BC;
+	font-size: 1.6;
+	font-weight: bolder;
+}
