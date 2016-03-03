@@ -123,6 +123,7 @@ Slide Principal
 	background-color: red;
 	background-image: url(../images/galeria_principal/full/1.jpg);
 	background-repeat: no-repeat;
+	background-position: center;
 	background-size: cover;
 }
 #textoslide {
