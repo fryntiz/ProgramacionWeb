@@ -5,6 +5,7 @@ Colores usados en la web
 
 	GRISES:
 		#EFF0F2
+		#72808F
 */
 * {
 	margin: 0;
@@ -54,23 +55,19 @@ Menú Principal
 #menuprincipal {
 	display: inline-block;
 	width: 76%;
-	margin: 1px 5px;
-	padding: 1px 10px;
 }
 #menuprincipal UL LI {
 	display: table-cell;
-	padding: 3px;
+	padding: 3px 6px;
 	height: 30px;
 	color: white;
 	text-decoration: none;
 	vertical-align: middle;
 	text-align: center;
-	border: 3px groove #EFF0F2;
 	font-weight: bold;
 }
 #menuprincipal UL LI:hover {
-	color: #495B6D;
-	background-color: #EFF0F2;
+	background-color: #72808F;
 }
 .redessociales {
 	display: inline-block;
@@ -204,7 +201,7 @@ Descripción de la empresa
 	max-width: 1200px;
 	padding: 5px;
 	color: black;
-	background-color: #EFF0F2;
+	background-color: lightgray;
 }
 
 /*
