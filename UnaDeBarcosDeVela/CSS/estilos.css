@@ -75,7 +75,7 @@ Galería Principal
 	max-width: 1200px;
 }
 #cajagaleriaprincipal {
-	margin: 20px 0;
+	margin: 0 5px 0 15px;
 }
 .galeriaprincipal {
 	margin: 5px 9px;
@@ -118,6 +118,7 @@ Slide Principal
 }
 #slideprincipal {
 	display: inline-block;
+	margin: 0 -5px;
 	width: 90%;
 	height: 500px;
 	background-color: red;
@@ -125,6 +126,7 @@ Slide Principal
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	z-index: 19;
 }
 #textoslide {
 	position: absolute;
@@ -138,11 +140,16 @@ Slide Principal
 	display: inline-block;
 	width: 3%;
 	height: 500px;
-	background-color: greenyellow;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	cursor: pointer;
+	z-index: 20;
 }
 #flechaizq {
-
+	background-image: url(../images/flechaizq.png);
 }
 #flechadrh {
-
+	background-image: url(../images/flechadrh.png);
 }
