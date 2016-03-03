@@ -113,16 +113,31 @@ Galería Principal
 Slide Principal
 ------------------------------------------
 */
-#slideprincipal {
+#cajaslideprincipal {
 	width: 100%;
+}
+#slideprincipal {
+	display: inline-block;
+	width: 90%;
 	height: 500px;
 	background-color: red;
 	background-image: url(../images/galeria_principal/full/1.jpg);
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
+}
+#textoslide {
+	position: absolute;
+	width: 550px;
+	height: 80px;
+	background-color: #EFF0F2;
+	opacity: 0.6;
+	border-radius: 0 0 20px 0;
 }
 .flechas {
-
+	display: inline-block;
+	width: 3%;
+	height: 500px;
+	background-color: greenyellow;
 }
 #flechaizq {
 
