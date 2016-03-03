@@ -146,16 +146,21 @@ Slide Principal
 	display: inline-block;
 	width: 3%;
 	height: 500px;
-	background-color: black;
+	background-color: #EFF0F2;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
 	cursor: pointer;
 	z-index: 20;
 }
+.flechas:hover {
+	background-color: black;
+}
 #flechaizq {
 	background-image: url(../images/flechaizq.png);
+	border-radius: 10px 0 0 10px;
 }
 #flechadrh {
 	background-image: url(../images/flechadrh.png);
+	border-radius: 0 10px 10px 0;
 }
