@@ -21,7 +21,9 @@ Título
 ------------------------------------------
 */
 #cajatitulo {
-
+	text-align: center;
+	align-content: center;
+	vertical-align: middle;
 }
 #lineasuperior {
 	width: 100%;
@@ -30,9 +32,13 @@ Título
 }
 #logo {
 	display: inline-block;
+	margin-top: 1px;
 }
 #titulo {
 	display: inline-block;
+}
+#titulo H1 {
+	color: #495B6D;
 }
 /*
 ------------------------------------------
