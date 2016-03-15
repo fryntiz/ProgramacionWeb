@@ -1,0 +1,2 @@
+Tamaño mínimo 600x500
+Tamaño máximo 890x500
