@@ -56,6 +56,9 @@ Menú Principal
 	display: inline-block;
 	width: 76%;
 }
+#menuprincipal A {
+	text-decoration: none;
+}
 #menuprincipal UL LI {
 	display: table-cell;
 	padding: 3px 6px;
@@ -69,6 +72,11 @@ Menú Principal
 #menuprincipal UL LI:hover {
 	background-color: #72808F;
 }
+
+#inicio #enlaceinicio, #embarcaciones_de_vela #enlaceembarcaciones {
+	background-color: #72808F;
+}
+
 .redessociales {
 	display: inline-block;
 	width: 34px;
@@ -126,6 +134,10 @@ Galería Principal
 }
 #imgdegalaeriaprincipal1 {
 	background-image: url(../images/galeria_principal/thumbnail/1.jpg);
+	box-shadow: 5px 5px 5px black,
+		-5px 5px 5px black,
+		5px -5px 5px black,
+		-5px -5px 5px black;
 }
 #imgdegalaeriaprincipal2 {
 	background-image: url(../images/galeria_principal/thumbnail/2.jpg);
@@ -189,6 +201,108 @@ Slide Principal
 #flechadrh {
 	background-image: url(../images/flechadrh.png);
 	border-radius: 0 10px 10px 0;
+}
+
+/*
+------------------------------------------
+Menú IZQUIERDA común todas las páginas
+------------------------------------------
+*/
+#cajamenuizquierda {
+	margin: 0 5px 0 0;
+	padding: 5px;
+	background-color: #495B6D;
+}
+
+/*
+------------------------------------------
+Caja contenido General
+------------------------------------------
+*/
+#cajacontenido {
+	width: 100%;
+	text-align: center;
+}
+#cajacontenido H1 {
+	margin: 0 0 10px 0;
+	font-size: 2.4em;
+	background-color: #495B6D;
+	background-image: url(../images/fondoarena.jpg);
+}
+
+/*
+------------------------------------------
+Específico Barcos de Vela
+------------------------------------------
+*/
+#barcos {
+	width: 100%;
+	padding: 10px 0;
+	background-color: #495B6D;
+	background-image: url(../images/fondoarena.jpg);
+	border-radius:10px;
+}
+.cajabarcos {
+	width: 90%;
+	margin: 30px auto;
+	padding: 15px 10px;
+	color: white;
+	background-color: #003046;
+	text-align: center;
+	vertical-align: middle;
+	align-content: center;
+	align-items: center;
+	border: 3px groove black;
+	border-radius: 10px;
+	box-shadow: 6px 6px 5px black;
+}
+.cajabarcos H3 {
+	font-size: 2.4em;
+	color: white;
+	text-shadow: 1px 1px 1px #1DB8BC,
+		-1px 1px 1px #1DB8BC,
+		1px -1px 1px #1DB8BC,
+		-1px -1px 1px #1DB8BC,
+		6px 6px 5px black;
+}
+.cajabarcos IMG {
+	width: 80%;
+	padding: 0;
+	align-content: center;
+	text-align: center;
+	border: 5px groove white;
+	border-radius: 10px;
+	box-shadow: 6px 6px 5px black;
+}
+.barcoimagen {
+}
+.barcocontenido {
+	margin: 5px 10px;
+	text-align: left;
+}
+.barcostablas {
+	width: 100%;
+	margin: 10px 0;
+	border: 4px groove black;
+	border-radius: 10px;
+}
+.barcostablas TR:nth-of-type(even) {
+	color: black;
+	background-color: white;
+}
+.barcostablas TR:nth-of-type(odd) {
+	background-color: #1DB8BC;
+}
+.barcostablas IMG {
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+}
+.resultado TD{
+	color: red;
 }
 
 /*
