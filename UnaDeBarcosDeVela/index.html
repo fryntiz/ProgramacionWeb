@@ -11,8 +11,8 @@
 	</HEAD>
 
 	<BODY id="inicio">
+		<DIV id="lineasuperior"></DIV>
 		<DIV id="cajatitulo">
-			<DIV id="lineasuperior"></DIV>
 			<IMG id="logo" src="images/logo.png" alt="Logotipo"/>
 			<DIV id="titulo"><H1>Barcos de Vela</H1></DIV>
 		</DIV>
@@ -44,15 +44,32 @@
 			</DIV>
 			<DIV id="cajaslideprincipal">
 				<DIV id="flechaizq" class="flechas" onclick="alert('Esto funcionará pronto, el Lunes por ejemplo')"></DIV>
-				<DIV id="slideprincipal">
-					<DIV id="textoslide">Este es un mensaje descriptivo</DIV>
+				<DIV id="slideprincipal" onMouseOver="mostrarDescripcion()" onMouseOut="ocultarDescripcion()">
+					<DIV id="textoslide">
+						<H3>Título del barco o nombre</H3>
+						<DIV>
+							Texto Describiendo el barco (Resumiendo).
+							<BR/>Como mucho 3 lineas.
+							<BR/>Terminando con un enlace así: y puedes <A href=#>leer más aquí...</A>
+						</DIV>
+					</DIV>
 				</DIV>
 				<DIV id="flechadrh" class="flechas" onclick="alert('Esto funcionará pronto, el Lunes por ejemplo')"></DIV>
 			</DIV>
 		</DIV>
 
-		<DIV id="descripcionempresa">
-			Aqui va una descripción de la empresaAqui va una descripción de la empresaAqui va una descripción de la empresaAqui va una <em>asdasdasdasd</em>descripción de la empresaAqui va una descripción de la empresaAqui va una descripción de la empresaAqui va una descripción de la empresaAqui va una descripción de la empresaAqui va una descripción de la empresaAqui va una descripción de la empresaAqui va una descripción de la empresaAqui va una descripción de la empresaAqui va una descripción de la empresaAqui va una descripción de la empresaAqui va una descripción de la empresaAqui va una descripción de la empresaAqui va una descripción de la empresaAqui va una descripción de la empresaAqui va una descripción de la empresaAqui va una descripción de la empresaAqui va una descripción de la empresa
+		<DIV id="cajadescripcionempresa">
+			<DIV id="descripcionempresa">
+				<H3>Nuestro trabajo</H3>
+				<DIV>
+					Texto descriptivo
+				</DIV>
+				<BR/>
+				<H3>Nuestros Objetivos</H3>
+				<DIV>
+					Texto descriptivo
+				</DIV>
+			</DIV>
 		</DIV>
 
 		<DIV id="piedepagina">
