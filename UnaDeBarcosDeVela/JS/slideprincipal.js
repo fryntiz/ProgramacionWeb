@@ -101,3 +101,17 @@ function cambiarImagen4() {
 //Función que cambie la imagen (llamando a la funcion correspondiente) para cuando se accione una flecha para anterior o posterior
 
 //Funcion Para cuando pase el ratón por encima de "slideprincipal" aparezca el texto descriptivo de "textoslide"
+
+function mostrarDescripcion() {
+	var slide = document.getElementById("slideprincipal");
+	var textoslide = document.getElementById("textoslide");
+
+	textoslide.style.opacity = 0.7;
+}
+
+function ocultarDescripcion() {
+	var slide = document.getElementById("slideprincipal");
+	var textoslide = document.getElementById("textoslide");
+
+	textoslide.style.opacity = 0;
+}
