@@ -1,4 +1,6 @@
-var slideImagenActual = 1;
+//Variables Globales
+	//Imagen actual en el slide
+		var slideImagenActual = 1;
 
 //Función para limpiar borde de miniaturas
 function limpiarSelecciones() {
