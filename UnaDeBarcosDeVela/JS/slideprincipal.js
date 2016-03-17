@@ -1,3 +1,5 @@
+var slideImagenActual = 1;
+
 //Función para limpiar borde de miniaturas
 function limpiarSelecciones() {
 	//Variables
@@ -20,6 +22,8 @@ function formatodefondo() {
 	slide.style.backgroundRepeat = "no-repeat";
 	slide.style.backgroundPosition = "center";
 	slide.style.backgroundSize = "cover";
+
+	//slideImagenActual = 1;
 }
 
 function cambiarImagen1() {
@@ -38,6 +42,8 @@ function cambiarImagen1() {
 
 	//Dar formato a la imagen de fondo
 		formatodefondo()
+
+	slideImagenActual = 1;
 }
 
 function cambiarImagen2() {
@@ -55,7 +61,9 @@ function cambiarImagen2() {
 		slide.style.backgroundImage = "url('images/galeria_principal/full/2.jpg')";
 
 	//Dar formato a la imagen de fondo
-		formatodefondo()
+		formatodefondo();
+
+	slideImagenActual = 2;
 }
 
 function cambiarImagen3() {
@@ -73,7 +81,9 @@ function cambiarImagen3() {
 		slide.style.backgroundImage = "url('images/galeria_principal/full/3.jpg')";
 
 	//Dar formato a la imagen de fondo
-		formatodefondo()
+		formatodefondo();
+
+	slideImagenActual = 3;
 }
 
 function cambiarImagen4() {
@@ -91,17 +101,12 @@ function cambiarImagen4() {
 		slide.style.backgroundImage = "url('images/galeria_principal/full/4.jpg')";
 
 	//Dar formato a la imagen de fondo
-		formatodefondo()
+		formatodefondo();
+
+	slideImagenActual = 4;
 }
 
-
-
-//Función Final que lo hace todo 1-limpiar 2-colorear thumbnail 3-Poner imagen
-
-//Función que cambie la imagen (llamando a la funcion correspondiente) para cuando se accione una flecha para anterior o posterior
-
 //Funcion Para cuando pase el ratón por encima de "slideprincipal" aparezca el texto descriptivo de "textoslide"
-
 function mostrarDescripcion() {
 	var slide = document.getElementById("slideprincipal");
 	var textoslide = document.getElementById("textoslide");
@@ -114,4 +119,44 @@ function ocultarDescripcion() {
 	var textoslide = document.getElementById("textoslide");
 
 	textoslide.style.opacity = 0;
+}
+
+//Función que cambie la imagen (llamando a la funcion correspondiente) para cuando se accione una flecha para anterior o posterior
+
+
+function cambiarImagenSlide(direccion) {
+	if (direccion == "derecha") {
+		//Acciones para cuando se mueve a la derecha
+			slideImagenActual = slideImagenActual + 1;
+			if (slideImagenActual == 1) {
+				cambiarImagen1();
+			} else if (slideImagenActual == 2) {
+				cambiarImagen2();
+			} else if (slideImagenActual == 3) {
+				cambiarImagen3();
+			} else if (slideImagenActual == 4) {
+				cambiarImagen4();
+			} else {
+				cambiarImagen1();
+			}
+	} else if (direccion == "izquierda") {
+		//Acciones para cuando se mueve a la izquierda
+			slideImagenActual = slideImagenActual - 1;
+			if (slideImagenActual == 0) {
+				slideImagenActual = slideImagenActual + 1;
+				cambiarImagen1();
+			}else if (slideImagenActual == 1) {
+				cambiarImagen1();
+			} else if (slideImagenActual == 2) {
+				cambiarImagen2();
+			} else if (slideImagenActual == 3) {
+				cambiarImagen3();
+			} else if (slideImagenActual == 4) {
+				cambiarImagen4();
+			} else {
+				cambiarImagen1();
+			}
+	} else {
+		alert("Ha ocurrido un error, no se puede hacer esto por el momento");
+	}
 }
