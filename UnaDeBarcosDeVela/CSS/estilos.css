@@ -26,6 +26,7 @@ Título
 	text-align: center;
 	align-content: center;
 	vertical-align: middle;
+	border-bottom: 5px groove #495B6D;
 	background-image: url(../images/fondotitulo.jpg);
 }
 #lineasuperior {
