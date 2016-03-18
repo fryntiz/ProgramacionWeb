@@ -245,9 +245,9 @@ Menú IZQUIERDA común todas las páginas
 ------------------------------------------
 */
 #cajamenuizquierda {
-	width: 200px;
+	width: 240px;
 	margin: 0 5px 0 0;
-	padding: 5px;
+	padding: 8px;
 	background-color: #495B6D;
 	text-align: center;
 }
@@ -257,6 +257,7 @@ Menú IZQUIERDA común todas las páginas
 	background-color: #EFF0F2;
 	border-radius: 10px;
 	box-shadow: 5px 5px 5px black;
+	background-image: url(../images/fondoarena.jpg);
 }
 #cajamenuizquierda P {
 	text-align:left;
