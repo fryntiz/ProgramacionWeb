@@ -6,11 +6,13 @@
 		<LINK rel="shortcut icon" href="./images/favicon.png"/>
 		<LINK rel="stylesheet" href="./CSS/estilos.css"/>
 		<LINK rel="stylesheet" href="./CSS/1000.css"/>
+		<SCRIPT src="./JS/scripts.js"></SCRIPT>
+		<SCRIPT src="./JS/slideprincipal.js"></SCRIPT>
 	</HEAD>
 
 	<BODY id="embarcaciones_de_vela">
+		<DIV id="lineasuperior"></DIV>
 		<DIV id="cajatitulo">
-			<DIV id="lineasuperior"></DIV>
 			<IMG id="logo" src="images/logo.png" alt="Logotipo"/>
 			<DIV id="titulo"><H1>Barcos de Vela</H1></DIV>
 		</DIV>
@@ -18,14 +20,12 @@
 		<DIV id="cajamenuprincipal">
 			<DIV id="menuprincipal">
 				<UL>
-					<A href="index.html"><LI id="enlaceinicio">Inicio</LI></A>
-					<A href="embarcaciones_de_vela.html"><LI id="enlaceempresa">Empresa</LI></A>
-					<A href="#"><LI id="enlaceembarcaciones">Embarcaciones de Vela</LI></A>
-					<A href="#"><LI id="enlaceveleria">Velería</LI></A>
-					<A href="#"><LI id="enlacecontacto">Contacto</LI></A>
-					<A href="#"><LI id="enlacedescargacatalogo">Descargar Catálogo</LI></A>
+					<A href="index.html"><LI id="enlaceinicio">INICIO</LI></A>
+					<A href="#"><LI id="enlaceempresa">EMPRESA</LI></A>
+					<A href="embarcaciones_de_vela.html"><LI id="enlaceembarcaciones">EMBARCACIONES DE VELA</LI></A>
+					<A href="#"><LI id="enlaceveleria">VELERÍA</LI></A>
+					<A href="contacto.html"><LI id="enlacecontacto">CONTACTO</LI></A>
 				</UL>
-
 			</DIV>
 
 			<DIV id="correo" class="redessociales"></DIV>
@@ -246,6 +246,13 @@
 			Teléfono: 123123123
 			<BR/>
 			Derechos de autor
+		</DIV>
+
+		<DIV id="cajaflechasubir">
+			<A href="#titulo">
+				<DIV id="flechasubir"></DIV>
+				<P onmouseOver="mostrarSubirPagina()" onmouseout="noMostrarSubirPagina()">Subir Página</P>
+			</A>
 		</DIV>
 	</BODY>
 </HTML>
