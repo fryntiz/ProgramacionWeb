@@ -8,6 +8,11 @@ Colores usados en la web
 		#EFF0F2
 		#72808F
 */
+
+@font-face {
+	font-family:"titulos";
+	src:url(../OTF/titulos.ttf)
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -15,6 +20,10 @@ Colores usados en la web
 
 BODY {
 
+}
+
+H1, H2, H3, H4, H5, H6 {
+	font-family: titulos;
 }
 
 /*
@@ -45,7 +54,7 @@ Título
 }
 #titulo H1 {
 	color: black;
-	font-size: 4em
+	font-size: 4em;
 }
 /*
 ------------------------------------------
