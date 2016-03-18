@@ -248,7 +248,17 @@ Menú IZQUIERDA común todas las páginas
 	margin: 0 5px 0 0;
 	padding: 5px;
 	background-color: #495B6D;
+	text-align: center;
 }
+#cajamenuizquierda TD {
+	margin: 10px 0;
+}
+#cajamenuizquierda TD {
+	padding: 15px 2px;
+	background-color: #EFF0F2;
+	border-radius: 10px
+}
+
 
 /*
 ------------------------------------------
