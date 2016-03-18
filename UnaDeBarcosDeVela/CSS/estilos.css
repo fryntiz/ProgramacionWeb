@@ -245,18 +245,32 @@ Menú IZQUIERDA común todas las páginas
 ------------------------------------------
 */
 #cajamenuizquierda {
+	width: 200px;
 	margin: 0 5px 0 0;
 	padding: 5px;
 	background-color: #495B6D;
 	text-align: center;
 }
 #cajamenuizquierda TD {
-	margin: 10px 0;
-}
-#cajamenuizquierda TD {
+	margin: 10px;
 	padding: 15px 2px;
 	background-color: #EFF0F2;
-	border-radius: 10px
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px black;
+}
+#cajamenuizquierda P {
+	text-align:left;
+}
+.IMGBackground {
+	margin: auto;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#imgIzquierda1 {
+	width: 140px;
+	height: 120px;
+	background-image: url(../images/menu_izquierda/1.jpg);
 }
 
 
