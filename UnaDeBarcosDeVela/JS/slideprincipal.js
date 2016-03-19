@@ -1,6 +1,8 @@
 //Variables Globales
 	//Imagen actual en el slide
 		var slideImagenActual = 1;
+	//Mover o no Mover slide automaticamente
+		var autoSlide = "true";
 
 //Función para limpiar borde de miniaturas
 function limpiarSelecciones() {
@@ -114,6 +116,8 @@ function mostrarDescripcion() {
 	var textoslide = document.getElementById("textoslide");
 
 	textoslide.style.opacity = 0.7;
+	//Parar auto pase del slide
+	autoSlide = "false";
 }
 
 function ocultarDescripcion() {
@@ -121,11 +125,11 @@ function ocultarDescripcion() {
 	var textoslide = document.getElementById("textoslide");
 
 	textoslide.style.opacity = 0;
+	//Activar auto pase del slide
+	autoSlide = "true"
 }
 
 //Función que cambie la imagen (llamando a la funcion correspondiente) para cuando se accione una flecha para anterior o posterior
-
-
 function cambiarImagenSlide(direccion) {
 	if (direccion == "derecha") {
 		//Acciones para cuando se mueve a la derecha
@@ -160,5 +164,16 @@ function cambiarImagenSlide(direccion) {
 			}
 	} else {
 		alert("Ha ocurrido un error, no se puede hacer esto por el momento");
+	}
+}
+
+//Cambiar SLIDE automaticamente según el estado de la variable autoSlide
+function autoCambiarSlide() {
+	var slide = document.getElementById("slideprincipal");
+
+	if (autoSlide == "true") {
+		cambiarImagenSlide("derecha");
+	} else if (autoSlide == "false") {
+
 	}
 }
