@@ -1,35 +1,32 @@
 <?php
-if(isset($_POST['email'])) {
+// Preferencias
+$para = "raupulus@gmail.com";
+$asunto = "Contacto desde el sitio web";
 
-// Debes editar las próximas dos líneas de código de acuerdo con tus preferencias
-$email_to = "raupulus@gmail.com";
-$email_subject = "Contacto desde el sitio web";
+	//Variables generales
+$nombre = $_POST['nombre'];
+$apellidos = $_POST['apellidos'];
+$mail = $_POST['mail'];
+$telefono = $_POST['telefono'];
+$comentario = $_POST['comentario'];
 
 // Validación de datos
-if(!isset($_POST['nombre']) ||
-!isset($_POST['apellidos']) ||
-!isset($_POST['email']) ||
-!isset($_POST['telefono']) ||
-!isset($_POST['comentario'])) {
 
-echo "<b>Ocurrió un error y el formulario no ha sido enviado. </b><br />";
-echo "Por favor, vuelva atrás y verifique la información ingresada<br />";
-die();
-}
-
-$email_message = "Detalles del formulario de contacto:\n\n";
-$email_message .= "Nombre: " . $_POST['nombre'] . "\n";
-$email_message .= "Apellidos: " . $_POST['apellidos'] . "\n";
-$email_message .= "Correo electrónico: " . $_POST['email'] . "\n";
-$email_message .= "Teléfono: " . $_POST['telefono'] . "\n";
-$email_message .= "Comentario: " . $_POST['comentario'] . "\n\n";
+//Preparamos el mensaje que contendrá el correo
+$mensaje = "Detalles del formulario de contacto:\n\n";
+$mensaje .= "Nombre: " . $nombre . "\n";
+$mensaje .= "Apellidos: " . $apellidos . "\n";
+$mensaje .= "Correo electrónico: " . $mail . "\n";
+$mensaje .= "Teléfono: " . $telefono . "\n";
+$mensaje .= "Comentario: " . $comentario . "\n\n";
 
 
 // Ahora se envía el e-mail usando la función mail() de PHP
-$headers = 'From: '.$email_from."\r\n".
-'Reply-To: '.$email_from."\r\n" .
-'X-Mailer: PHP/' . phpversion();
-@mail($email_to, $email_subject, $email_message, $headers);
+$header = 'From: ' . $mail . " \r\n";
+$header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
+$header .= "Mime-Version: 1.0 \r\n";
+$header .= "Content-Type: text/plain";
+mail($para, $asunto, $mensaje, $header);
 
 echo "¡El formulario se ha enviado con éxito!";
 }
