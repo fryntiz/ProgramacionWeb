@@ -1,18 +1,19 @@
 #cajacontenido {
-	top: 140px;
-	position: relative;
-	margin:auto;
+	display: block;
+	margin: 50px auto 15px auto;
 	min-width: 380px;
 	max-width: 1200px;
-	background-color: red;
+	background-color: yellow;
 	align-content: center;
+	align-items: center;
 	text-align: center;
+	vertical-align: top;
 }
-
 #contenido {
-	position: relative;
-	float: left;
+	display: inline-table;
+	margin: auto;
 	width: 63%;
+	height: 100%;
 	border: 10px solid transparent;
 	border-image-width: 10px;
 	border-image: url("../images/temporal/bitmap.png") 50 stretch;
@@ -25,18 +26,4 @@
 		-moz-border-radius: 20px;
 		-o-border-radius: 20px;
 		-ms-border-radius: 20px;
-}
-
-#barraderecha {
-	position: relative;
-	float: right;
-	background-color: #1BD5FF;
-	width: 26%;
-	border: 10px solid transparent;
-	border-image-width: 10px;
-	border-image: url("../images/temporal/lava.png") 50 stretch;
-		-moz-border-image: url("../images/temporal/lava.png") 50 stretch;
-		-webkit-border-image: url("../images/temporal/lava.png") 50 stretch;
-		-o-border-image: url("../images/temporal/lava.png") 50 stretch;
-	background-color: gray;
 }
