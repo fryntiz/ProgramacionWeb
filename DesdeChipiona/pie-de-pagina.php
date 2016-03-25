@@ -2,6 +2,6 @@
 
 		<FOOTER>
 			<ADDRESS>
-				asd
+				Este es el pie de página
 			</ADDRESS>
 		</FOOTER>
