@@ -1,0 +1,102 @@
+#desplegarporque {
+	position: fixed;
+	width: 80px;
+	height: 40px;
+	top: 0;
+	left: 0;
+	text-align: center;
+	vertical-align: middle;
+	align-content: center;
+	background-color: ghostwhite;
+	display: block;
+	border-bottom-right-radius: 40px;
+	z-index: 51;
+}
+#desplegarmenu {
+	position: fixed;
+	width: 80px;
+	height: 40px;
+	top: 0;
+	right: 0;
+	text-align: center;
+	vertical-align: middle;
+	align-content: center;
+	background-color: ghostwhite;
+	display: block;
+	border-bottom-left-radius: 40px;
+	z-index: 51;
+}
+
+#cajamenusuperior {
+	top: -18px;
+	position: fixed;
+	width: 100%;
+	z-index: 50;
+	display: block;
+}
+
+#menu {
+	width: 260px;
+	height: 20px;
+	margin: auto;
+	color: aliceblue;
+}
+#menu UL LI {
+	display: inline-block;
+	padding: 5px;
+}
+#menu UL LI:hover {
+	color: #1BD5FF;
+	cursor: pointer;
+}
+#menu UL LI A {
+	font-size: 16px;
+}
+#menusuperior {
+	position: relative;
+	margin: auto;
+	width: 90%;
+	align-content: center;
+	text-align: center;
+	background-color: #7F92BF;
+	box-shadow: 5px 5px 45px black;
+       -webkit-box-shadow: 5px 5px 45px black;
+       -moz-box-shadow: 5px 5px 45px black;
+       -o-box-shadow: 5px 5px 45px black;
+       -ms-box-shadow: 5px 5px 45px black;
+	display:block;
+}
+
+#menusuperior UL LI {
+	display: inline-block;
+	margin: 2px 0px 2px 0px;
+	padding: 1px 6px 1px 6px;
+	font-style: oblique;
+	color: #013CCC;
+	background-color: #FF905B;
+	text-shadow: 3px 3px 3px #CC2501;
+	text-align: center;
+	align-content: center;
+	border: 1px solid black;
+	border-right: none;
+	box-shadow: 5px 5px 45px #1BD5FF;
+       -webkit-box-shadow: 5px 5px 45px #1BD5FF;
+       -moz-box-shadow: 5px 5px 45px #1BD5FF;
+       -o-box-shadow: 5px 5px 45px #1BD5FF;
+       -ms-box-shadow: 5px 5px 45px #1BD5FF;
+	cursor: pointer;
+}
+
+#menusuperior UL :hover{
+	background-color: #013CCC;
+	color: whitesmoke;
+	box-shadow: 10px 10px 35px #013CCC;
+       -webkit-box-shadow: 10px 10px 35px #013CCC;
+       -moz-box-shadow: 10px 10px 35px #013CCC;
+       -o-box-shadow: 10px 10px 35px #013CCC;
+       -ms-box-shadow: 10px 10px 35px #013CCC;
+}
+#menusuperior UL LI A P IMG {
+	width: 80px;
+	height: 80px;
+}

@@ -1,0 +1,65 @@
+/*Tonos de colores de fondo:
+#013CCC
+#7F92BF
+#1BD5FF
+#FF905B
+#CC2501
+*/
+
+
+@CHARSET "UTF-8";
+
+/*--------------------------------FUENTES internas--------------------*/
+@font-face {font-family:lobster;
+src: url(../TTF/Lobster.ttf) format("opentype");}
+@font-face {font-family:fairydust;
+src: url(../TTF/Fairydust.ttf) format("opentype");}
+@font-face {font-family:orial_bold;
+src: url(../TTF/Orial_bold.otf) format("opentype");}
+@font-face {font-family:makejuice;
+src: url(../TTF/Makejuice.ttf) format("opentype");}
+
+/*--------------------------------Estilos generales-------------------*/
+body {
+	margin:0px;
+	padding:0px;
+	font-family: Fairydust;
+	background-color: black;
+}
+
+A {
+	position: relative;
+	margin: auto;
+	font-size: 20px;
+	text-decoration: none;
+	text-shadow: 3px 3px 3px black;
+}
+
+IMG {
+	position: relative;
+	margin: auto;
+	width: 100%;
+}
+
+HEADER {
+	position: relative;
+	margin: auto;
+	min-width:80%;
+	font-size: 25px;
+	align-content: center;
+	text-align: center;
+}
+
+H1, H2, H3, H4, H5, H6 {
+	color: red;
+}
+
+H1 {
+
+}
+H2 {
+
+}
+H3 {
+
+}
