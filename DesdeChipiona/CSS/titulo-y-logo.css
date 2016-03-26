@@ -1,3 +1,6 @@
+#titulos {
+	top: 30px;
+}
 #titulos *{
 	text-shadow: 1px 1px 8px white,
 		1px -1px 8px white,
