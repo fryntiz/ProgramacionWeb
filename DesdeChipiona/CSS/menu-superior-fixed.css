@@ -1,34 +1,125 @@
-#desplegarporque {
+#desplegarRedes {
+	display: block;
 	position: fixed;
+	padding-top: 16px;
 	width: 90px;
-	height: 40px;
+	height: 90px;
 	top: 0;
 	left: 0;
+	color: red;
+	font-size: 1.5em;
 	text-align: center;
-	vertical-align: middle;
 	align-content: center;
-	background-color: ghostwhite;
-	display: block;
+	background-image: url("../images/luna.png");
+	background-size: contain;
+	background-repeat: no-repeat;
 	border-bottom-right-radius: 40px;
 	z-index: 51;
 }
-#desplegarmenu {
-	position: fixed;
+#desplegarRedes:hover {
+	background-image: url("../images/luna2.png");
+	cursor: pointer;
+}
+#redesDesplegado {
+	display: none;
+	position: absolute;
+	top: 0;
+	width: 260px;
+	height: 200px;
+	z-index: 50;
+}
+#redesDesplegado UL {
+	position: absolute;
+	top: 0;
+	left: 60px;
+	margin: auto;
+	align-content: center;
+	text-align: center;
+	align-items: center;
+}
+#RedesCorreo {
+	background-image: url(../images/RedesSociales/Correo.png);
+}
+#RedesFacebook {
+	background-image: url(../images/RedesSociales/Facebook.png);
+}
+#RedesTwitter {
+	background-image: url(../images/RedesSociales/Twitter.png);
+}
+#RedesYoutube {
+	background-image: url(../images/RedesSociales/Youtube.png);
+}
+
+.BotonMenu {
+	display: inline-block;
+	margin: auto;
 	width: 90px;
-	height: 40px;
+	height: 90px;
+	align-content: center;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.BotonMenu:hover {
+	cursor: pointer;
+}
+
+#desplegarMenu {
+	display: block;
+	position: fixed;
+	padding-top: 16px;
+	width: 90px;
+	height: 90px;
 	top: 0;
 	right: 0;
+	color: red;
+	font-size: 1.5em;
 	text-align: center;
-	vertical-align: middle;
 	align-content: center;
-	background-color: ghostwhite;
-	display: block;
+	background-image: url("../images/sol.png");
+	background-size: contain;
+	background-repeat: no-repeat;
 	border-bottom-left-radius: 40px;
 	z-index: 51;
 }
+#desplegarMenu:hover {
+	background-image: url("../images/sol2.png");
+	cursor: pointer;
+}
+#menuDesplegado {
+	display: none;
+	position: absolute;
+	left: -160px;
+	width: 250px;
+	height: 200px;
+	z-index: 50;
+}
+#menuDesplegado UL {
+	width: 100%;
+	margin: 40px 0 0 0;
+	padding: 0;
+	position: absolute;
+	align-content: left;
+	text-align: left;
+	align-items: left;
+}
+#menuDesplegado LI {
+	width: 100%;
+	margin: 4px;
+	padding: 4px 3px;
+	list-style-type: none;
+	font-size: 1.2em;
+	color: white;
+	background-color: orangered;
+	border-radius: 5px;
+}
+#menuDesplegado LI:hover {
+	color: #CC2501;
+	background-color: #1BD5FF;
+}
 
 #cajamenusuperior {
-	top: -110px;
+	top: -50px;
 	position: fixed;
 	width: 100%;
 	z-index: 50;
@@ -41,14 +132,12 @@
 	align-content: center;
 	text-align: center;
 	display:block;
-	border-radius: 10px;
-
 }
 
 #menusuperior LI, #menusuperior A {
 	display: inline-block;
-	margin: 2px 0px 2px 0px;
-	padding: 2px 5px;
+	margin: 3px 7px;
+	padding: 14px 9px 6px 9px;
 	font-style: oblique;
 	color: white;
 	background-color: #172956;
@@ -68,8 +157,4 @@
 	background-color: black;
 	color: #CFAB62;
 	box-shadow: 8px 8px 25px white;
-}
-#menusuperior UL LI A P IMG {
-	width: 40px;
-	height: 40px;
 }
