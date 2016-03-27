@@ -1,24 +1,38 @@
-//Tomando los datos del array PHP para el selector de imágenes
+//Rutas de galerías de Imágenes
+var General = "";//1
+var Playas = "";//2
+var Monumentos = "";//3
+var Flora = "";//4
+var Fauna = "";//5
+
+var directorioImagenes = ""
+var imagenActual = "";
 var longitudArrayImagenes = "";
 
-//Esta variable debería tomarse sola desde carrusel.php pero por ahora la inserto manualmente para testear
-var directorioActualImagenes = "images/1_chipiona_general/thumbnail/";
-
-
-var imagenActual = "";
-
-function abc(x) {
+function debugRutas(x) {
 	alert("La longitud del Array es: " + longitudArrayImagenes + "\n"
 				+ "La Imagen Actual es la: " + x + "\n"
-				+ "El directorio actual de las imágenes es: " + directorioActualImagenes + "\n"
-				+ "El nombre completo de la imagen sería: " + directorioActualImagenes + imagenActual + ".jpg");
+				+ "El directorio actual de las imágenes es: " + General + "\n"
+				+ "El nombre completo de la imagen sería: " + directorioImagenes + imagenActual + ".jpg");
 }
 
-function cambiarBackground(x) {
+function cambiarBackground(x, y) {
 	var imagen = document.getElementById("imagenactual");
 	imagenActual = x;
-	imagen.src = directorioActualImagenes + imagenActual + ".jpg";
-	abc(x);
+	directorioImagenes = y;
+	if (directorioImagenes = 1) {
+		directorioImagenes = General;
+	} else if (directorioImagenes = 2) {
+		directorioImagenes = Playas;
+	} else if (directorioImagenes = 3) {
+		directorioImagenes = Monumentos;
+	} else if (directorioImagenes = 4) {
+		directorioImagenes = Flora;
+	} else if (directorioImagenes = 5) {
+		directorioImagenes = Fauna;
+	}
+	imagen.src = directorioImagenes + imagenActual + ".jpg";
+	debugRutas(x);
 }
 
 
