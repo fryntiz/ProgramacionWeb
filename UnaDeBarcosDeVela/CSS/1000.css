@@ -108,4 +108,13 @@ Menú IZQUIERDA común todas las páginas
 	#cajamenuizquierda {
 		display: none;
 	}
+
+/*
+------------------------------------------
+Esta parte es Formulario
+------------------------------------------
+*/
+	#enviar {
+		width: 90% !important;
+	}
 }
