@@ -1,0 +1,86 @@
+@media screen and (max-width: 1024px) {
+
+
+/*
+------------------------------------------
+Menú Principal
+------------------------------------------
+*/
+	#cajamenuprincipal {
+		font-size: 0.9em;
+		text-align: center;
+	}
+	#cajaRedesSociales {
+		position: relative;
+		display: inline-block;
+		width: 100%;
+		padding: 0;
+		margin: auto;
+		text-align: center !important;
+	}
+	.redessociales {
+		display: inline-block;
+		width: 45px;
+		height: 45px;
+		margin-top: -7px;
+		text-align: center;
+	}
+	#cajageneral {
+		margin: 0 !important;
+		padding: 0 !important;
+		display: block;
+		min-width: 300px;
+		max-width: 900px;
+	}
+	#cajagaleriaprincipal {
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}
+	.galeriaprincipal {
+		display: inline-block;
+		margin: 0;
+		width: 160px;
+		height: 100px;
+	}
+	.galeriaprincipal:hover {
+
+	}
+
+
+	/*
+------------------------------------------
+Slide Principal
+------------------------------------------
+*/
+	#cajaslideprincipal {
+		display: block;
+		width: 100%;
+		margin: auto;
+		text-align: center;
+	}
+	#slideprincipal {
+		display: inline-block;
+		margin: auto;
+		height: 400px;
+	}
+	.flechas {
+		display:none;
+	}
+	#textoslide {
+		width: 80%;
+		height: 140px;
+	}
+/*
+------------------------------------------
+Pie de Página
+------------------------------------------
+*/
+	#piedepagina {
+		width: 100%;
+		height: 90px;
+		text-align: center;
+		font-size: 1em;
+	}
+
+}
