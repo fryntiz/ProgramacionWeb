@@ -4,3 +4,44 @@
 
 ------------------------
 */
+
+#titulo {
+	color: darkred;
+	text-align: center;
+	background-color: #165483;
+	background-image: url(../images/head.png);
+}
+#titulo H1 {
+	background-color: black;
+}
+#menu {
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+	background-color: black;
+	border: 3px groove black;
+}
+#menu DIV:hover {
+	color: black;
+	background-color: white;
+	cursor: pointer;
+}
+
+#cajaContenido {
+	margin: auto;
+}
+#contenidoIZQ {
+	padding: 3px;
+	margin: 5px;
+	background-color: orange;
+}
+#contenidoCentral {
+	padding: 3px;
+	margin: 5px;
+	background-color: darkseagreen;
+}
+#contenidoDRH {
+	padding: 3px;
+	margin: 5px;
+	background-color: orange;
+}

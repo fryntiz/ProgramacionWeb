@@ -3,6 +3,7 @@
    <HEAD>
 		<TITLE>Plantilla Portal 1</TITLE>
 		<META charset="utf-8"/>
+		<META name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<LINK rel="shortcut icon" href="./images/favicon.png"/>
 		<LINK rel="stylesheet" href="./CSS/bootstrap.css"/>
 		<LINK rel="stylesheet" href="./CSS/bootstrap-theme.css"/>
@@ -13,7 +14,42 @@
 	</HEAD>
 
 	<BODY>
-	
+		<DIV class="row">
+			<DIV class="col-md-12" id="titulo">
+				<H1 class="h1">Título</H1>
+			</DIV>
+			
+			<DIV class="col-md-12" id="menu">
+				<DIV class="col-md-12 visible-sm">MENÚ <IMG src="images/menu.png" alt="Menú"/></DIV>
+				<DIV class="col-md-4 hidden-sm">Volver al sitio principal</DIV>
+				<DIV class="col-md-4 hidden-sm">Contactar con el administrador</DIV>
+				<DIV class="col-md-4 hidden-sm">Otras Opciones</DIV>
+			</DIV>
+			
+			<DIV class="col-md-12" id="cajaContenido">
+				<DIV class="col-md-3">
+					<DIV id="contenidoIZQ">Menú izquierdo</DIV>
+				</DIV>
+				<DIV class="col-md-6">
+					<DIV id="contenidoCentral">
+						<P class="text-center h2">Menú Central</P>
+						<FORM class="text-center">
+							<LABEL for="usuario">Nombre de usuario:</LABEL>
+							<INPUT type="text" name="usuario"/>
+							<BR/>
+							<LABEL for="contraseña">Contraseña:</LABEL>
+							<INPUT type="password" name="contraseña"/>
+						</FORM>
+						<P>
+							Introduce los datos de acceso para utilizar este servicio. Si tienes algún problema o duda consulta con el administrador del sitio para que pueda ayudarte.
+						</P>
+					</DIV>
+				</DIV>
+				<DIV class="col-md-3">
+					<DIV id="contenidoDRH">Menú Derecho<BR/>asdasdas</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
 	
 	</BODY>
 </HTML>
