@@ -101,4 +101,12 @@ Pie de Página
 		font-size: 1em;
 	}
 
+/*
+------------------------------------------
+Menú IZQUIERDA común todas las páginas
+------------------------------------------
+*/
+	#cajamenuizquierda {
+		display: none;
+	}
 }
