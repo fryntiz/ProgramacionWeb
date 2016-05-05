@@ -73,6 +73,24 @@ Slide Principal
 	}
 /*
 ------------------------------------------
+Descripción de la empresa
+------------------------------------------
+*/
+	#cajadescripcionempresa {
+		margin: auto;
+		width: 90%;
+		padding: 0;
+	}
+	#descripcionempresa {
+		padding: 3px 5px;
+		width: 100%;
+		border: 0;
+	}
+	#descripcionempresa H3 {
+		font-size: 1.1em;
+}
+/*
+------------------------------------------
 Pie de Página
 ------------------------------------------
 */
