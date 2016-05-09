@@ -18,6 +18,8 @@ src: url(../TTF/Fairydust.ttf) format("opentype");}
 src: url(../TTF/Orial_bold.otf) format("opentype");}
 @font-face {font-family:makejuice;
 src: url(../TTF/Makejuice.ttf) format("opentype");}
+@font-face {font-family:cabinsketch;
+src: url(../TTF/CabinSketch.ttf) format("opentype");}
 
 /*--------------------------------Estilos generales-------------------*/
 body {
