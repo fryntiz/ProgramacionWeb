@@ -15,7 +15,7 @@
           </DIV><!-- 3 Fin Desplegable-->
 
               <DIV id="4desplegableizq" class="alldesplegablesizq"><!-- 4 Desplegable-->
-                 <IMG class="comundesplegableizqimagenes" src="./images/despleizq/4.jpg" alt="Flora" onmouseover="descripcion('4')" onmouseout="nodescripcion()" onclick="rotargaleria('faunageneral')"/>
+                 <IMG class="comundesplegableizqimagenes" src="./images/despleizq/4.jpg" alt="Fauna" onmouseover="descripcion('4')" onmouseout="nodescripcion()" onclick="rotargaleria('faunageneral')"/>
                   <DIV id="4desplegableletras" class="desplegableletras">Fauna</DIV>
           </DIV><!-- 4 Fin Desplegable-->
 
