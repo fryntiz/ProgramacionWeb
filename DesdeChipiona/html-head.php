@@ -11,3 +11,5 @@
 		<LINK rel="stylesheet" href="./CSS/titulo-y-logo.css"/>
 		<SCRIPT src="JS/menu-superior-fixed.js"></SCRIPT>
 		<SCRIPT src="JS/carrusel.js"></SCRIPT>
+		<SCRIPT src="JS/scripts.js"></SCRIPT>
+		<SCRIPT src="JS/jquery.js"></SCRIPT>
