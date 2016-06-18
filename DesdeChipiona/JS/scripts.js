@@ -1,5 +1,21 @@
 /*
 -----------------------------------------------
+Pantalla de carga al entrar
+-----------------------------------------------
+*/
+
+function preCarga () {
+	var z = document.getElementById("CajaCargando");
+	z.style.display = "none";
+
+	alert('Construcción del sitio WEB Beta 0.3\nEstamos aún desarrollando la página por lo que puedes experimentar errores puntuales que iremos corrigiendo o lentitud en la visualización de imágenes.\n\nDisfrútala y vuelve a visitarnos pronto.\n\n\n')
+
+}
+
+
+
+/*
+-----------------------------------------------
 Menu desplegable IZQ
 -----------------------------------------------
 */
