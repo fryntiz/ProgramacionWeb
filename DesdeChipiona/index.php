@@ -7,10 +7,21 @@
 		?>
 	</HEAD>
 
-	<BODY onkeydown="return false">
+	<BODY onkeydown="return false" onLoad="preCarga()">
+		<DIV id="CajaCargando">
+			<DIV id="Cargando"></DIV>
+			<DIV id="CargandoTitulo">
+				Desde Chipiona
+				<BR/>
+				Cargando...
+				<BR/>
+				<P>La galería fotográfica estará cargada en unos instantes</P>
+				<BR/>
+				<IMG src="images/cargando.gif" alt="Cargando DesdeChipiona"/>
+			</DIV>
+		</DIV>
 		<?php
 			include 'menu-superior-fixed.php';
-
 			include 'titulo-y-logo.php';
 		?>
 
