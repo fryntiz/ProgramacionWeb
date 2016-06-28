@@ -5,29 +5,9 @@
 ?>
 
 	<BODY id="inicio">
-		<DIV id="lineasuperior"></DIV>
-		<DIV id="cajatitulo">
-			<IMG id="logo" src="images/logo.png" alt="Logotipo"/>
-			<DIV id="titulo"><H1>Barcos de Vela</H1></DIV>
-		</DIV>
-
-		<DIV id="cajamenuprincipal">
-			<DIV id="menuprincipal">
-				<UL>
-					<A href="index.html"><LI id="enlaceinicio">INICIO</LI></A>
-					<A href="#"><LI id="enlaceempresa">EMPRESA</LI></A>
-					<A href="embarcaciones_de_vela.html"><LI id="enlaceembarcaciones">EMBARCACIONES DE VELA</LI></A>
-					<A href="#"><LI id="enlaceveleria">VELERÍA</LI></A>
-					<A href="contacto.html"><LI id="enlacecontacto">CONTACTO</LI></A>
-				</UL>
-			</DIV>
-		</DIV>
-
-		<DIV id="cajaRedesSociales">
-			<DIV id="correo" class="redessociales"></DIV>
-			<DIV id="facebook" class="redessociales"></DIV>
-			<DIV id="videos" class="redessociales"></DIV>
-		</DIV>
+		<?php
+			include 'menuSuperior.php';
+		?>
 
 		<DIV id="cajageneral">
 			<DIV id="cajagaleriaprincipal">
@@ -66,19 +46,8 @@
 			</DIV>
 		</DIV>
 
-		<DIV id="piedepagina">
-			Correo: sdfgvdfsfgsdfg@gmail.com
-			<BR/>
-			Teléfono: 123123123
-			<BR/>
-			Derechos de autor
-		</DIV>
-
-		<DIV id="cajaflechasubir">
-			<A href="#titulo">
-				<DIV id="flechasubir"></DIV>
-				<P onmouseOver="mostrarSubirPagina()" onmouseout="noMostrarSubirPagina()">Ir al Principio</P>
-			</A>
-		</DIV>
+		<?php
+			include 'pieDePagina.php'
+		?>
 	</BODY>
 </HTML>
