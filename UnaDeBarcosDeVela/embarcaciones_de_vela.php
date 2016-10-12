@@ -1,82 +1,19 @@
 <!DOCTYPE html>
 <HTML lang="es">
-   <HEAD>
-		<TITLE>Barcos de Vela</TITLE>
-		<META charset="utf-8"/>
-		<LINK rel="shortcut icon" href="./images/favicon.png"/>
-		<LINK rel="stylesheet" href="./CSS/estilos.css"/>
-		<LINK rel="stylesheet" href="./CSS/1000.css"/>
-		<SCRIPT src="./JS/scripts.js"></SCRIPT>
-		<SCRIPT src="./JS/slideprincipal.js"></SCRIPT>
-	</HEAD>
+<?php
+	include 'head.php';
+?>
 
 	<BODY id="embarcaciones_de_vela">
-		<DIV id="lineasuperior"></DIV>
-		<DIV id="cajatitulo">
-			<IMG id="logo" src="images/logo.png" alt="Logotipo"/>
-			<DIV id="titulo"><H1>Barcos de Vela</H1></DIV>
-		</DIV>
-
-		<DIV id="cajamenuprincipal">
-			<DIV id="menuprincipal">
-				<UL>
-					<A href="index.html"><LI id="enlaceinicio">INICIO</LI></A>
-					<A href="#"><LI id="enlaceempresa">EMPRESA</LI></A>
-					<A href="embarcaciones_de_vela.html"><LI id="enlaceembarcaciones">EMBARCACIONES DE VELA</LI></A>
-					<A href="#"><LI id="enlaceveleria">VELERÍA</LI></A>
-					<A href="contacto.html"><LI id="enlacecontacto">CONTACTO</LI></A>
-				</UL>
-			</DIV>
-		</DIV>
-
-		<DIV id="cajaRedesSociales">
-			<DIV id="correo" class="redessociales"></DIV>
-			<DIV id="facebook" class="redessociales"></DIV>
-			<DIV id="videos" class="redessociales"></DIV>
-		</DIV>
+		<?php
+			include 'menuSuperior.php';
+		?>
 
 <!--BARCOS:-->
 		<DIV id="cajageneral">
-			<ASIDE id="cajamenuizquierda">
-				<H4>DESTACADO</H4>
-				Caja menú izquierda 200px
-				<TABLE>
-					<TR>
-						<TD>
-							Nombre del Barco
-							<DIV id="imgIzquierda1" class="IMGBackground"></DIV>
-							<BR/>
-							<P>
-								Descripcion breve con un enlace que sugiera entrar a la página para visitarlo terminando con un enlace así: para <A href="#">mas información pulsa aquí</A>
-							</P>
-						</TD>
-					</TR>
-
-					<TR>
-						<TD>
-							IMAGEN 140px x 100px
-							<BR/>
-							Descripcion
-						</TD>
-					</TR>
-
-					<TR>
-						<TD>
-							IMAGEN 140px x 100px
-							<BR/>
-							Descripcion
-						</TD>
-					</TR>
-
-					<TR>
-						<TD>
-							IMAGEN 140px x 100px
-							<BR/>
-							Descripcion
-						</TD>
-					</TR>
-				</TABLE>
-			</ASIDE>
+			<?php
+				include 'lateral.php';
+			?>
 
 			<DIV id="cajacontenido">
 				<H2>EMBARCACIONES DE VELA</H2>
@@ -279,19 +216,8 @@
 			</DIV>
 		</DIV>
 
-		<DIV id="piedepagina">
-			Correo: sdfgvdfsfgsdfg@gmail.com
-			<BR/>
-			Teléfono: 123123123
-			<BR/>
-			Derechos de autor
-		</DIV>
-
-		<DIV id="cajaflechasubir">
-			<A href="#titulo">
-				<DIV id="flechasubir"></DIV>
-				<P onmouseOver="mostrarSubirPagina()" onmouseout="noMostrarSubirPagina()">Subir Página</P>
-			</A>
-		</DIV>
+		<?php
+			include 'pieDePagina.php';
+		?>
 	</BODY>
 </HTML>
